@@ -7,8 +7,8 @@ package Chapter2StateMachines;
 public enum EntityNames {
 
     ent_Miner_Bob(0),
-    ent_Elsa(1);
-
+    ent_Elsa(1),
+    ent_kid(2);
     final public int id;
 
     EntityNames(int id) {
@@ -30,6 +30,8 @@ public enum EntityNames {
                 return "Miner Bob";
             case 1:
                 return "Elsa";
+            case 2:
+                return "David";
             default:
                 return "UNKNOWN!";
         }
